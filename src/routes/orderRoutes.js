@@ -6,8 +6,12 @@ import {
     updateOrder,
     deleteOrder
 } from "../controllers/orderController.js";
+import auth from "../middleware/auth.js";
 
 const router = express.Router();
+
+// Todas as rotas deste router requerem autenticação
+router.use(auth);
 
 router.post("/order", createOrder);
 router.get("/order/list", listOrders);
