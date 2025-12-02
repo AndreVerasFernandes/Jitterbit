@@ -9,8 +9,24 @@ API simples para gerenciar pedidos (CRUD) usando Node.js, Express e MongoDB (Mon
 - **DELETE `/order/:orderId`**: deletar pedido
 
 **Estrutura do projeto**
-- **`/src`**: código-fonte
-  - **`app.js`**, **`config/database.js`**, **`models/order.js`**, **`controllers/orderController.js`**, **`routes/orderRoutes.js`**, **`routes/authRoutes.js`**
+```
+/src
+│   app.js
+│   package.json
+|   package-lock.json
+│
+├── config
+│     └── database.js           
+│
+├── models
+│     └── order.js             
+│
+├── controllers
+│     └── orderController.js   
+│
+└── routes
+      └── orderRoutes.js       
+```
 
 **Formato de entrada (exemplo para criação)**
 
