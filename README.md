@@ -1,6 +1,10 @@
 # Jitterbit
 API simples para gerenciar pedidos (CRUD) usando Node.js, Express e MongoDB (Mongoose).
 
+
+Swagger: https://andreverasfernandes.github.io/JitterbitSwagger/
+
+
 **Endpoints principais**
 - **POST `/order`**: criar novo pedido
 - **GET `/order/:orderId`**: obter pedido por número
